@@ -1,9 +1,0 @@
-services:
-  bootdeploykit-api:
-    build: .
-    container_name: bootdeploykit-api
-    restart: always
-    ports:
-      - "8080:8080"
-    environment:
-      SPRING_PROFILES_ACTIVE: prod
