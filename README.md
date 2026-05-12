@@ -4,6 +4,19 @@ BootDeployKit 是一个面向 Java 后端开发者的在线部署包生成工具
 
 用户只需要填写项目名称、JAR 包名称、运行端口、域名和中间件配置，系统即可自动生成 Dockerfile、run.sh、docker-compose.yml、Nginx 配置和部署说明，帮助 Spring Boot 项目快速完成服务器部署。
 
+## 项目截图
+
+### 首页
+
+![首页](./docs/images/home.png)
+
+### 部署配置
+
+![部署配置](./docs/images/config.png)
+
+### 生成结果
+
+![生成结果](./docs/images/result.png)
 ## 在线体验
 
 https://boot-deploy-kit.vercel.app
